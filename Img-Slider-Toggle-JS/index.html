@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Image Slider Toggle Button | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <div class="content">
+      <div class="images">
+        <img src="bg1.jpeg">
+        <img src="bg2.jpg">
+        <img src="bg3.jpeg">
+        <img src="bg4.jpeg">
+        <img src="bg5.jpg">
+      </div>
+      <div class="btm-slides">
+        <span onclick="btm_slide(1)"></span>
+        <span onclick="btm_slide(2)"></span>
+        <span onclick="btm_slide(3)"></span>
+        <span onclick="btm_slide(4)"></span>
+        <span onclick="btm_slide(5)"></span>
+      </div>
+      <div class="sliders left" onclick="side_slide(-1)">
+        <span class="fas fa-angle-left"></span>
+      </div>
+      <div class="sliders right" onclick="side_slide(1)">
+        <span class="fas fa-angle-right"></span>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
